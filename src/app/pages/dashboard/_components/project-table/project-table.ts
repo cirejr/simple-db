@@ -30,6 +30,7 @@ import { TableAction } from '../table-action/table-action';
           <th ui-table-head>Region</th>
           <th ui-table-head>Created at</th>
           <th ui-table-head class="">Storage Gb</th>
+          <th ui-table-head class=""></th>
         </tr>
       </thead>
 

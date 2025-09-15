@@ -36,7 +36,7 @@ import { ProjectTable } from '../_components/project-table/project-table';
     <div class="absolute min-h-[1200px] w-[1px] bg-accent left-36"></div>
     <div class="absolute min-h-[1000px] w-[1px] bg-accent right-36"></div>
     <div class="border-b">
-      <div class="max-w-7xl mx-auto pb-8 pt-4.5 flex items-center justify-between ">
+      <div class="max-w-7xl mx-auto pb-8 pt-8 flex items-center justify-between ">
         <ui-card-title class="font-medium text-2xl">Projects Dashboard</ui-card-title>
         <div class="flex items-center gap-2.5">
           <app-create-project-dialog />
@@ -47,7 +47,7 @@ import { ProjectTable } from '../_components/project-table/project-table';
       </div>
     </div>
     <section>
-      <div class="max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto py-4">
         <app-search-field />
         <app-project-table />
       </div>

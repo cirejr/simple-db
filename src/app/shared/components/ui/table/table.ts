@@ -6,7 +6,7 @@ import { cn } from '@app/core/utils/cn';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [],
   template: `
-    <div data-slot="table-container" class="relative w-full overflow-x-auto ">
+    <div data-slot="table-container" class="relative w-full overflow-x-auto">
       <table data-slot="table" [class]="className()">
         <ng-content />
       </table>

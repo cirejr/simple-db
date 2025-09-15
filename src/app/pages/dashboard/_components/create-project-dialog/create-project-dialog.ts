@@ -35,7 +35,7 @@ import { Button } from '@app/shared/components/ui/button/button';
     <ng-template let-close="close" #dialog>
       <div ui-alert-dialog-overlay>
         <div ui-alert-dialog class="min-w-3xl px-0 gap-0">
-          <div ui-alert-dialog-header class="px-8 pb-4">
+          <div ui-alert-dialog-header class="px-8 pb-6">
             <h1 ui-alert-dialog-description>Create a new project</h1>
           </div>
           <span ui-separator></span>
@@ -45,7 +45,7 @@ import { Button } from '@app/shared/components/ui/button/button';
             <span ui-separator orientation="vertical" class="col-span-1 justify-self-end"></span>
           </div>
           <span ui-separator></span>
-          <div ui-alert-dialog-footer class="px-8 pt-4">
+          <div ui-alert-dialog-footer class="px-8 pt-6">
             <button ui-button class="rounded-full">Create</button>
             <button ui-button class="rounded-full" variant="secondary" (click)="close()">
               Cancel

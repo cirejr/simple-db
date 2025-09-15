@@ -11,13 +11,14 @@ import { NgpSeparator } from 'ng-primitives/separator';
     },
   ],
   host: {
-    'attr.data-slot': 'separator',
+    'data-slot': 'separator',
     '[class]': 'className()',
+    '[attr.data-orientation]': 'orientation()',
   },
 })
 export class Separator {
   readonly class = input<string>('');
-
+  readonly orientation = input<'vertical' | 'horizontal'>('horizontal');
   readonly className = computed(() =>
     cn(
       'bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px',

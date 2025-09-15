@@ -132,7 +132,7 @@ import {
             </ng-template>
           </div>
         </div>
-        <div class="@container">
+        <div class="@container flex-1">
           <router-outlet />
         </div>
       </div>
